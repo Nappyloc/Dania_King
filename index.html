@@ -946,7 +946,10 @@
                     <div class="contact_form_data">
                       <div class="sc_contact_form">
                         <h3 class="title">Let's keep in touch</h3>
-                        <form action="include/sendmail.php" method="post">
+                        <form
+                          action="https://formspree.io/xbjzqapr"
+                          method="post"
+                        >
                           <div class="field">
                             <label
                               class="required"
@@ -980,10 +983,26 @@
                               id="sc_contact_form_message"
                             ></textarea>
                           </div>
-                          <div class="button">
-                            <a class="enter" href="#"><span>Submit</span></a>
-                          </div>
+
+                          <button
+                            type="submit"
+                            style="
+                              display: inline-block;
+                              padding: 5px 12px 6px;
+                              font-size: 14px;
+                              line-height: 17px;
+                              text-decoration: none;
+                              font-weight: 700;
+                              border: 2px solid #e5e5e5;
+                              border-color: #3b3b3b;
+                              background: #3b3b3b;
+                              color: #646464;
+                            "
+                          >
+                            Send
+                          </button>
                         </form>
+
                         <div class="result sc_infobox"></div>
                       </div>
                     </div>
